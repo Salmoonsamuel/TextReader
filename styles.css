@@ -1,0 +1,145 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #4daedf;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.container {
+  background: rgb(193, 103, 103);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(159, 97, 97, 0.1);
+  width: 90%;
+  max-width: 700px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  display: inline-block;
+  background: #0078d7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#fileInput {
+  display: none;
+}
+
+#openCameraBtn {
+  background: #16a085;
+  color: rgb(91, 145, 190);
+  border: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.camera-section {
+  display: none;
+  margin-top: 15px;
+}
+
+#camera {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#captureBtn, #closeCameraBtn {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+#closeCameraBtn {
+  background: #e74c3c;
+}
+
+#canvas {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#progressContainer {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 10px;
+  height: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  display: none;
+}
+
+#progressBar {
+  height: 10px;
+  background: linear-gradient(90deg, #0078d7, #2ecc71);
+  width: 0%;
+  border-radius: 10px;
+  transition: width 0.2s;
+}
+
+#progressText {
+  margin-top: 10px;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.output-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+pre {
+  background: #eef2f7;
+  padding: 10px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 100px;
+}
+
+.action-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.action-buttons button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#stopBtn {
+  background: #e74c3c;
+}
+
+#downloadBtn {
+  background: #2ecc71;
+}
+
+
